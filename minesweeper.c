@@ -53,10 +53,10 @@ int main() {
 
         for(row = 0; row < 10; row++){
             if('X' == field[row][column]){
-                printf("%c  ",field[row][column]); /// X'leri Char formatında yaz
+                printf("%c  ",field[row][column]); /// Print X as Char
             }
             else{
-                printf("%d  ",field[row][column]); ///Sayıları Int formatında yaz
+                printf("%d  ",field[row][column]); ///Print numbers as Int
             }
         }
         printf("\n");
